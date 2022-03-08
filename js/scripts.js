@@ -3,9 +3,9 @@ $(document).ready(function() {
       alert("This is a header.");
     });
   
-    $("p").click(function() {
-        $(".walrus-showing").toggle();
-        $(".walrus-hidden").toggle();
+    $(".clickable").click(function() {
+        $("#walrus-showing").toggle();
+        $("#walrus-hidden").toggle();
       });
     
     $("img").click(function() {
